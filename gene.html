@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="gene.css">
+        <script src="gene.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Password Generator</h1>
+        </div>
+        <div id="pass">
+            <input id="txt" type="text">
+            <div>
+                <label id="asd" for="numb">Length</label>
+                <input id="numb" name="numb" type="number" min="0" max="20">
+            </div>
+            <div>
+                <label id="asd" for="num">Numbers</label>
+                <input id="num" name="num" type="checkbox">
+            </div>
+            <div>
+                <label id="asd" for="up">Capitals</label>
+                <input id="up" name="up" type="checkbox">
+            </div>
+            <div>
+                <label id="asd" for="sm">Smalls</label>
+                <input id="sm" name="sm" type="checkbox">
+            </div>
+            <div>
+                <label id="asd" for="sy">Symbols</label>
+                <input id="sy" name="sy" type="checkbox">
+            </div>
+            <button id="btn" onclick="generate()">Generate</button>
+        </div>
+    </body>
+</html>

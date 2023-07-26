@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+#pass{
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+    margin-top: 200px;
+    position: relative;
+    background-color: darkcyan;
+    position: fixed;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+#txt{
+     font-size: 150%;
+     height: 40px;
+     border: 2px solid black;
+     color: black;
+     background-color: white;
+     margin-bottom: 30px;
+}
+#num,#up,#sy,#sm,#numb{
+    position: absolute;
+    right: 2%;
+}
+#btn{
+    font-size: 150%;
+    background-color: brown;
+    width: 300px;
+    margin-top: 30px;
+
+}
+#asd{
+    font-size: 130%;
+    margin-bottom: 20px;
+}
